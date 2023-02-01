@@ -26,3 +26,5 @@ app.set('views',path.join(__dirname,'views'))
 app.listen(3000,()=>{
     console.log("server running");
 })
+
+app.set('partials',path.join(__dirname,'views','partials'));
