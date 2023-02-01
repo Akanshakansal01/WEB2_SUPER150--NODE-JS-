@@ -1,0 +1,13 @@
+Get :- 
+                1. get request is to retrieve / fetch information. 
+                2. data is used as query string parameter.
+                3. data is send as plain text in URL. 
+                4. sending data is less secure.
+
+
+
+Post :-      
+            1. post request is used to create resource.
+            2. data is send as request body.
+            3. data is send in various formats e.g., json, form data , html, js etc.
+            4.  sending data is more secure (not shown in URL).
