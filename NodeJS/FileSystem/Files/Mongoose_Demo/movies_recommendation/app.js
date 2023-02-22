@@ -17,6 +17,10 @@ app.get("/",(req,res)=>{
     res.render("index")
 })
 
+app.get("/search",(req,res)=>{
+    res.send("you are on search route");
+})
+
 app.listen(5000,()=>{
     console.log("server is running at port 5000.")
 })
